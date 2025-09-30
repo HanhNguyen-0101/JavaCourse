@@ -1,0 +1,83 @@
+/* CSS styles */
+h1 {
+  color: #CE5937;
+}
+body {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-bt1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  gap: 20px;
+}
+.item {
+  flex: 1 1 calc(100%/3 - 20px);
+  box-sizing: border-box;
+  padding: 12px 10px 0;
+  background-color: #1111;
+  text-align: center;
+}
+.item img {
+  width: 50px;
+  height: 50px;
+}
+.item p {
+  color: #b3b3b3;
+}
+	  
+.container-bt2 {
+  width: 600px;
+  background-color: #d3616c;
+  padding: 40px 60px;
+}
+.form {
+  background-color: white;
+  border: 0;
+  border-radius: 6px;
+  padding-top: 10px;
+}
+.form > div:first-child {
+  text-align: left;
+  padding: 0 30px;
+}
+.form > div h3 {
+  font-size: 24px;
+}
+.form > div input {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px 0 6px;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 14px;
+}
+.form span {
+  display: block;
+  color: grey;
+  margin: 25px 0;
+}
+.form > div:last-child {
+  display: flex;
+}
+.form > div:last-child button {
+  width: 50%;
+  border: 1px solid transparent;
+  font-weight: bold;
+  padding: 16px;
+}
+.form > div:last-child button:first-child {
+  color: grey;
+  border-bottom-left-radius: 6px;
+}
+.form > div:last-child button:last-child {
+  color: white;
+  background-color: #303b53;
+  border-bottom-right-radius: 6px;
+}
